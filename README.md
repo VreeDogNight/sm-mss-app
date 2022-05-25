@@ -26,7 +26,7 @@ This app will be used by the department to help speed up everyday tasks, to  inc
   - After a device has been returned to us, this app will be used to check-in the device and clear any tags or custom fields that have been added.
   - After a device has been returned, this will be used to mark the asset as deployable stock in Snipe-IT.
 
-What the 'check_asset' page does.
+## What the 'check_asset' page does.
   A. If the information submitted by Sales is correct.
       1. Saves all of the data inputs as variables to use with the different functions.
           A. It determines the partner code to use depending on the bank selected.
@@ -50,7 +50,7 @@ What the 'check_asset' page does.
   B. If the information from Sales is incorrect.
       1. The app updates the google spreadsheet saying that there was a sales error and notes the reason for marking it as an error with the date and time.
 
-What the 'assign_asset' page does.
+## What the 'assign_asset' page does.
   1. Saves all of the data inputs as variables to use with the different functions.
       A. It determines the partner code to use depending on the bank selected.
           a. If it is a partnered bank then it uses the correct code.

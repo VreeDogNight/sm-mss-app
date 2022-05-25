@@ -1,0 +1,4 @@
+dash>=0.33.0
+dash-html-components
+dash-core-components
+dash-bootstrap-components>=0.3.0
